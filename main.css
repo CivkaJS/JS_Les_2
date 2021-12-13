@@ -1,0 +1,164 @@
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-box {
+  background-color: chocolate;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-bucket {
+  margin: 0 3% 0 3%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.count-title {
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: bisque;
+}
+
+.bucket-summ {
+  position: absolute;
+  top: 60px;
+  border: solid 1px black;
+  padding-left: 3%;
+  padding-right: 3%;
+  z-index: 1;
+  width: 300px;
+  background: white;
+  display: none;
+}
+
+.bucket-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid maroon;
+}
+
+.count-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 60px;
+}
+
+.products {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.product-item {
+  margin-top: 30px;
+  border: solid 1px brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  background-color: bisque;
+}
+
+.buy-btn,
+.btn-cart {
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid;
+  cursor: pointer;
+  font-size: 0.950em;
+  font-style: oblique;
+  margin: 15px;
+  padding: 10px 30px;
+  border-color: lightcoral;
+  color: #fff;
+  -webkit-box-shadow: 0 0 40px 40px lightcoral inset, 0 0 0 0 lightcoral;
+          box-shadow: 0 0 40px 40px lightcoral inset, 0 0 0 0 lightcoral;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.btn-cart {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.buy-btn:hover {
+  color: lightcoral;
+  -webkit-box-shadow: 0 0 10px 0 lightcoral inset, 0 0 10px 4px lightcoral;
+          box-shadow: 0 0 10px 0 lightcoral inset, 0 0 10px 4px lightcoral;
+}
+
+.btn-cart:active {
+  -webkit-box-shadow: 0 0 10px 0 lightcoral inset, 0 0 10px 4px lightcoral;
+          box-shadow: 0 0 10px 0 lightcoral inset, 0 0 10px 4px lightcoral;
+}
+
+.btn-cart:focus ~ .bucket-summ,
+.btn-cart:active ~ .bucket-summ,
+.bucket-summ:hover {
+  display: block;
+}
+
+.price {
+  font-family: cursive;
+  font-size: larger;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: brown;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
